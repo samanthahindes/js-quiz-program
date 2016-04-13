@@ -16,22 +16,42 @@ var answer5= prompt("What is the name of the Rory's first boyfriend?");
 // if statement
 if ( answer1.toUpperCase() === 'STARS HOLLOW' ) {
  correct += 1;
+ document.write("<p>Correct!!</p>")
+}
+else{
+  document.write ("<p>The correct answer is Stars Hollow!")
 }
 
 if ( answer2.toUpperCase() === 'CHILTON' ) {
  correct += 1;
+  document.write("<p>Way to go!!</p>")
+}
+else{
+  document.write ("<p>The correct answer is Chilton!</p>")
 }
 
 if ( answer3.toUpperCase() === 'LUKE' ) {
  correct += 1;
+  document.write("<p>Good job!!</p>")
+}
+else{
+  document.write ("<p>The correct answer is Stars Hollow!</p>")
 }
 
 if ( answer4.toUpperCase() === 'THE DRAGONFLY INN' ) {
  correct += 1;
+  document.write("<p>Correct!!</p>")
+}
+else{
+  document.write ("<p>The correct answer is The Dragonfly Inn!</p>")
 }
 
 if ( answer5.toUpperCase() === 'DEAN' ) {
  correct += 1;
+  document.write("<p>Great Work!!</p>")
+}
+else{
+  document.write ("<p>The correct answer is Dean!</p>")
 }
 
 console.log("correct:" + correct);
@@ -48,7 +68,7 @@ if (correct===4){
 }
 
 if (correct===3){
-  document.write ("<p>So close! you received a bronze medal!<p>");
+  document.write ("<p>So close! You received a bronze medal!<p>");
 }
 
 if (correct===2){
