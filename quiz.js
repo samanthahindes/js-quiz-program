@@ -5,14 +5,6 @@ var correct = 0;
 var answer1 = prompt("What is the town that the hit series Gilmore Girls takes place?");
 console.log("the answer is:" + answer1);
 
-if ( answer1.toUpperCase() === 'STARS HOLLOW' ) {
- correct += 1;
- document.write("<p>Correct!!</p>")
-}
-else{
-  document.write ("<p>The correct answer is Stars Hollow!")
-}
-
 var answer2= prompt("What is the name of the high school Rory attends?");
 
 var answer3= prompt("Who owns the diner that Lorelai and Rory frequently eat at?");
@@ -23,37 +15,24 @@ var answer5= prompt("What is the name of the Rory's first boyfriend?");
 
 // if statement
 
+if ( answer1.toUpperCase() === 'STARS HOLLOW' ) {
+ correct += 1;
+}
 
 if ( answer2.toUpperCase() === 'CHILTON' ) {
  correct += 1;
-  document.write("<p>Way to go!!</p>")
-}
-else{
-  document.write ("<p>The correct answer is Chilton!</p>")
 }
 
 if ( answer3.toUpperCase() === 'LUKE' ) {
  correct += 1;
-  document.write("<p>Good job!!</p>")
-}
-else{
-  document.write ("<p>The correct answer is Stars Hollow!</p>")
 }
 
 if ( answer4.toUpperCase() === 'THE DRAGONFLY INN' ) {
  correct += 1;
-  document.write("<p>Correct!!</p>")
-}
-else{
-  document.write ("<p>The correct answer is The Dragonfly Inn!</p>")
 }
 
 if ( answer5.toUpperCase() === 'DEAN' ) {
  correct += 1;
-  document.write("<p>Great Work!!</p>")
-}
-else{
-  document.write ("<p>The correct answer is Dean!</p>")
 }
 
 console.log("correct:" + correct);
