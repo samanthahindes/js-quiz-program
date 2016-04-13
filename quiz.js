@@ -37,4 +37,28 @@ if ( answer5.toUpperCase() === 'DEAN' ) {
 console.log("correct:" + correct);
 
 // output results
-document.write("<p>You got"+ correct + "correct</p>");
+document.write("<p>You got: "+ correct + " correct</p>");
+
+if (correct===5){
+  document.write ("<p>Wow, you received a gold medal!<p>");
+}
+
+if (correct===4){
+  document.write ("<p>Congrats, you received a silver medal!<p>");
+}
+
+if (correct===3){
+  document.write ("<p>So close! you received a bronze medal!<p>");
+}
+
+if (correct===2){
+  document.write ("<p>You can do better!");
+}
+
+if (correct===1){
+  document.write ("<p>Uh oh, you need to brush up on your Gilmore Girls trivia!");
+}
+
+if (correct===0){
+  document.write ("<p>Uh oh, you need to brush up on your Gilmore Girls trivia!<p>");
+}
